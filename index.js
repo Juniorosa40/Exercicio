@@ -8,5 +8,9 @@ const sobreNome = 'Rosa';
 const idade = 42;
 const peso = 112;
 const alturaEmM = 1.68;
-let indiceDeMassaCorporal = peso / (alturaEmM * alturaEmM)
-let anoDeNascimento = 2022 - idade
+let indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
+let anoNascimento = 2022 - idade;
+
+console.log(`${nome} ${sobreNome} tem ${idade}, pesa ${peso} kg.`);
+console.log(`tem ${alturaEmM} de altura e seu IMC é de ${indiceMassaCorporal}`);
+console.log(`${nome} nasceu em ${anoNascimento} .`);
